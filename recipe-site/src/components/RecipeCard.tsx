@@ -1,12 +1,5 @@
 import React from 'react';
-import { Clock, Star } from 'lucide-react';
-
-type Recipe = {
-	id: number;
-	name: string;
-	image: string;
-	description: string;
-};
+import { Recipe } from '../types/recipe';
 
 type Props = {
 	recipe: Recipe;
@@ -22,10 +15,10 @@ const RecipeCard: React.FC<Props> = ({ recipe, onClick }) => (
 			<img src={recipe.image} alt={recipe.name} className="w-full h-48 object-cover" />
 		</div>
 		<div className="p-4">
-			<h3 className="font-bold text-lg text-gray-800 mb-2">{recipe.name}</h3>
-			<p className="text-gray-600 text-sm mb-3 line-clamp-2">{recipe.description}</p>
-			<div className="flex justify-between items-center text-xs text-gray-500">
-			</div>
+			<h3 className="font-bold text-lg text-[#685752] mb-2">{recipe.name}</h3>
+			<p className="text-[#997C70] text-sm mb-3 line-clamp-2">{recipe.description}</p>
+			{/* <div className="flex justify-between items-center text-xs text-gray-500">
+			</div> */}
 		</div>
 	</div>
 );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Leaf, Heart, Users, Star } from 'lucide-react';
+import {Leaf, Users} from 'lucide-react';
 import RecipeCard from '../components/RecipeCard';
 import { Recipe } from '../types/recipe';
 
@@ -22,8 +22,9 @@ const HomePage: React.FC<HomePageProps> = ({ recipes, onSelectRecipe }) => (
 					Chez Nagisaのレシピノート
 				</h1>
 				<p className="text-xl text-[#FAF9F6] mb-10 max-w-3xl mx-auto">
-					カフェChez Nagisaのレシピサイトです。身体にやさしい素材を選び、余計なものは加えず、
-					ひとつひとつ丁寧にスイーツを手作りしています。
+					Chez Nagisaのレシピサイトへようこそ。<br />
+					余計なものは加えず、素材の味を活かした、<br />
+					からだにやさしいお菓子のレシピをご紹介しています。
 				</p>
 
 				<div className="mb-12">

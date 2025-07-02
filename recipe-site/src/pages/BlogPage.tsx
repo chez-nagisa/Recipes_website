@@ -38,13 +38,13 @@ const BlogPage = () => {
 		<div className="py-16">
 			<div className="max-w-6xl mx-auto px-6">
 				<div className="text-center mb-12">
-					<h1 className="text-4xl font-bold text-gray-800 mb-4">Wellness Blog</h1>
-					<p className="text-gray-600 text-lg">
+					<h1 className="text-4xl font-bold text-gray-800 mb-4">準備中...</h1>
+					{/* <p className="text-gray-600 text-lg">
 						Insights, tips, and inspiration for your healthy living journey
-					</p>
+					</p> */}
 				</div>
 
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+				{/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{blogPosts.map((post) => (
 						<article
 							key={post.id}
@@ -70,7 +70,7 @@ const BlogPage = () => {
 							</div>
 						</article>
 					))}
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

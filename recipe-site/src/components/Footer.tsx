@@ -15,8 +15,7 @@ const Footer = () => (
 				</div>
 
 				<div className="text-center md:text-right">
-					{/* <p className="text-gray mb-2">Nourishing bodies, enriching lives</p> */}
-					<p className="text-sm text-gray">© 2025 Chez Nagisa. All rights reserved.</p>
+					<p className="text-sm text-gray">© 2025 Chez Nagisa.</p>
 				</div>
 			</div>
 		</div>
