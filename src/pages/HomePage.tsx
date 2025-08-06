@@ -50,9 +50,10 @@ const HomePage: React.FC<HomePageProps> = ({ recipes, onSelectRecipe }) => (
 					<p className="text-[#997C70] text-lg">甘さ控えめで素材の味を活かした優しいお菓子</p>
 				</div>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{recipes.slice(0, 6).map(recipe => (
-						<RecipeCard key={recipe.id} recipe={recipe} onClick={() => onSelectRecipe(recipe)} />
+					{(recipes ?? []).slice(0, 6).map(recipe => (
+ 						<RecipeCard key={recipe.id} recipe={recipe} onClick={() => onSelectRecipe(recipe)} />
 					))}
+
 				</div>
 			</div>
 		</section>
