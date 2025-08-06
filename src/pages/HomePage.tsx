@@ -1,5 +1,4 @@
 import React from 'react';
-import {Leaf, Users} from 'lucide-react';
 import RecipeCard from '../components/RecipeCard';
 import { Recipe } from '../types/recipe';
 

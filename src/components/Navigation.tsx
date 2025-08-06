@@ -1,11 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
+import { Recipe } from '../types/recipe';
 
 interface Props {
 	currentPage: string;
 	setCurrentPage: (page: string) => void;
-	setSelectedRecipe: (recipe: any) => void;
+	setSelectedRecipe: (recipe: Recipe | null) => void;
 }
 
 export default function Navigation({ currentPage, setCurrentPage, setSelectedRecipe }: Props) {

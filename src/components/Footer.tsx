@@ -1,5 +1,4 @@
 import React from 'react';
-import { Leaf } from 'lucide-react';
 
 const Footer = () => (
 	<footer className="bg-[#997C70] text-[#FAF9F6] py-12">
